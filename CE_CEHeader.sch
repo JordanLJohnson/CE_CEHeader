@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:CE_CEHeader-rescue
 LIBS:power
 LIBS:device
 LIBS:switches
@@ -32,6 +33,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:ce_header
+LIBS:CE_CEHeader-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -47,7 +49,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CE_Header U?
+L CE_Header-RESCUE-CE_CEHeader U?
 U 1 1 5AEEF23C
 P 6150 3925
 F 0 "U?" H 6150 3925 60  0000 C CNN
